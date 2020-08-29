@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-25T15:27:51 EDT" name="Suite" finished-at="2020-08-25T15:30:03 EDT" duration-ms="131821">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@15d49048]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-08-25T15:27:51 EDT" name="Test" finished-at="2020-08-25T15:30:03 EDT" duration-ms="131821">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@15d49048]" started-at="2020-08-25T15:29:46 EDT" name="setUpClass" finished-at="2020-08-25T15:29:47 EDT" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@15d49048]" started-at="2020-08-25T15:29:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-25T15:30:03 EDT" duration-ms="16263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["QA Engineer Job posting's Job Duration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Carrers Page Job Duration Check]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@15d49048]" started-at="2020-08-25T15:30:03 EDT" name="tearDownClass" finished-at="2020-08-25T15:30:03 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+      <class name="UI.chefhero.validateLoginPage">
+        <test-method signature="validatelogin(java.lang.String, java.lang.String)[pri:0, instance:UI.chefhero.validateLoginPage@448c8166]" started-at="2020-08-25T15:28:27 EDT" name="validatelogin" data-provider="getData" finished-at="2020-08-25T15:28:47 EDT" duration-ms="19454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rakeshroby@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tokyorty123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UI.chefhero.validateLoginPage@448c8166]" started-at="2020-08-25T15:28:47 EDT" name="closeBrowser" finished-at="2020-08-25T15:28:51 EDT" duration-ms="4566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="validatelogin(java.lang.String, java.lang.String)[pri:0, instance:UI.chefhero.validateLoginPage@448c8166]" started-at="2020-08-25T15:28:51 EDT" name="validatelogin" data-provider="getData" finished-at="2020-08-25T15:29:10 EDT" duration-ms="18862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[robyrakesh1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tokyorty123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UI.chefhero.validateLoginPage@448c8166]" started-at="2020-08-25T15:29:10 EDT" name="closeBrowser" finished-at="2020-08-25T15:29:14 EDT" duration-ms="4110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- UI.chefhero.validateLoginPage -->
+      <class name="UI.chefhero.validateHomepage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UI.chefhero.validateHomepage@147e2ae7]" started-at="2020-08-25T15:27:51 EDT" name="initialize" finished-at="2020-08-25T15:28:07 EDT" duration-ms="15736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateDropdownCount()[pri:0, instance:UI.chefhero.validateHomepage@147e2ae7]" started-at="2020-08-25T15:28:07 EDT" name="validateDropdownCount" finished-at="2020-08-25T15:28:08 EDT" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDropdownCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:UI.chefhero.validateHomepage@147e2ae7]" started-at="2020-08-25T15:28:08 EDT" name="tearDown" finished-at="2020-08-25T15:28:12 EDT" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UI.chefhero.validateHomepage@147e2ae7]" started-at="2020-08-25T15:28:12 EDT" name="initialize" finished-at="2020-08-25T15:28:25 EDT" duration-ms="13233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateNavBarItems()[pri:0, instance:UI.chefhero.validateHomepage@147e2ae7]" started-at="2020-08-25T15:28:25 EDT" name="validateNavBarItems" finished-at="2020-08-25T15:28:27 EDT" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavBarItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:UI.chefhero.validateHomepage@147e2ae7]" started-at="2020-08-25T15:28:27 EDT" name="tearDown" finished-at="2020-08-25T15:28:27 EDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- UI.chefhero.validateHomepage -->
+      <class name="UI.chefhero.validateUserReviews">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UI.chefhero.validateUserReviews@4470fbd6]" started-at="2020-08-25T15:29:14 EDT" name="initialize" finished-at="2020-08-25T15:29:25 EDT" duration-ms="10479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAndroidReview()[pri:0, instance:UI.chefhero.validateUserReviews@4470fbd6]" started-at="2020-08-25T15:29:25 EDT" name="validateAndroidReview" finished-at="2020-08-25T15:29:28 EDT" duration-ms="3665" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4] but found [4.7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4] but found [4.7]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at UI.chefhero.validateUserReviews.validateAndroidReview(validateUserReviews.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAndroidReview -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:UI.chefhero.validateUserReviews@4470fbd6]" started-at="2020-08-25T15:29:29 EDT" name="tearDown" finished-at="2020-08-25T15:29:30 EDT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UI.chefhero.validateUserReviews@4470fbd6]" started-at="2020-08-25T15:29:30 EDT" name="initialize" finished-at="2020-08-25T15:29:41 EDT" duration-ms="10662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateIOSReview()[pri:0, instance:UI.chefhero.validateUserReviews@4470fbd6]" started-at="2020-08-25T15:29:41 EDT" name="validateIOSReview" finished-at="2020-08-25T15:29:45 EDT" duration-ms="4180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIOSReview -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:UI.chefhero.validateUserReviews@4470fbd6]" started-at="2020-08-25T15:29:45 EDT" name="tearDown" finished-at="2020-08-25T15:29:46 EDT" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- UI.chefhero.validateUserReviews -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

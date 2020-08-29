@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 135.504 s <<< FAILURE! - in TestSuite
+UI.chefhero.validateUserReviews.validateAndroidReview  Time elapsed: 4.615 s  <<< FAILURE!
+java.lang.AssertionError: expected [4] but found [4.7]
+	at UI.chefhero.validateUserReviews.validateAndroidReview(validateUserReviews.java:68)
+
